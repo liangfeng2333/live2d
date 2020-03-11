@@ -23,7 +23,6 @@ function loadWidget(config) {
 				<span class="fa fa-lg fa-street-view"></span>
 				<span class="fa fa-lg fa-camera-retro"></span>
 				<span class="fa fa-lg fa-address-card-o"></span>
-				<span class="fa fa-lg fa-info-circle"></span>
 				<span class="fa fa-lg fa-times"></span>
 			</div>
 		</div>`);
@@ -72,9 +71,6 @@ function loadWidget(config) {
 			showMessage("照好了嘛，是不是很可爱呢？", 6000, 9);
 			Live2D.captureName = "photo.png";
 			Live2D.captureFrame = true;
-		});
-		document.querySelector("#waifu-tool .fa-info-circle").addEventListener("click", () => {
-			open("https://github.com/stevenjoezhang/live2d-widget");
 		});
 		document.querySelector("#waifu-tool .fa-address-card-o").addEventListener("click", () => {
 			open("https://haru.moeblog.vip/me?");
